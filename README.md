@@ -1,6 +1,9 @@
 # ABS - Angular Bootstrap Sidebar
 The **Angular Bootstrap Sidebar** is a powerful and flexible sidebar menu component for Angular applications.
 It enables you to create responsive and interactive sidebar menus with ease.
+
+**Demo(https://angular-bootstrap-sidebar.netlify.app/)**
+
 ### Features
 - Create customizable sidebar menus.
 - Supports nested menu items.
