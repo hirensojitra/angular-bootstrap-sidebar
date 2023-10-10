@@ -52,4 +52,4 @@ menu = [
 ##### Shortcuts to toggle menu
 > [Ctrl+Shift+S]
 
-[npm](https://www.npmjs.com/package/angular-bootstrap-sidebar)
+- [npm](https://www.npmjs.com/package/angular-bootstrap-sidebar)
