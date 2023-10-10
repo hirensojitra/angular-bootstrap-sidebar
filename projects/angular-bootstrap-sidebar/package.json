@@ -1,6 +1,28 @@
 {
   "name": "angular-bootstrap-sidebar",
-  "version": "0.0.2",
+  "version": "0.0.4",
+  "keywords": [
+    "angular 15",
+    "ltr",
+    "rtl",
+    "bootstrap 5",
+    "angular",
+    "angular-component",
+    "angular-sidebar",
+    "navigation-menu",
+    "responsive-menu",
+    "angular-library",
+    "web-development",
+    "frontend",
+    "user-interface",
+    "angular-module",
+    "customization",
+    "typescript",
+    "angular-navigation",
+    "angular-ui",
+    "responsive-design",
+    "angular-material"
+  ],
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"

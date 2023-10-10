@@ -1,1 +1,82 @@
 <abs [menuData]="menu" [menuActive]="false" [menuHover]="true"></abs>
+<div class="vh-100 bg-dark d-flex flex-column overflow-auto py-5">
+    <div class="container d-flex flex-column flex-grow-1 text-light">
+        <div class="row">
+            <div class="col-12">
+                <h1>Angular Bootstrap Sidebar</h1>
+                <p>The <strong>Angular Bootstrap Sidebar</strong> is a powerful and flexible sidebar menu component for
+                    Angular
+                    applications. It enables you to create responsive and interactive sidebar menus with ease.</p>
+
+                <h2>Features</h2>
+                <ul>
+                    <li>Create customizable sidebar menus.</li>
+                    <li>Supports nested menu items.</li>
+                    <li>Dynamic menu item highlighting based on the current route.</li>
+                    <li>Smooth menu toggling and hover interactions.</li>
+                    <li>Easily integrate it into your Angular applications.</li>
+                </ul>
+
+                <h2>Installation</h2>
+                <p>You can install the angular-bootstrap-sidebar package via npm:</p>
+                <pre class="card p-3">
+                    <code>npm install angular-bootstrap-sidebar</code>
+                </pre>
+                <p><strong>Bootstrap 5.1.3 and Font Awesome 4.7.0 are must required</strong></p>
+
+                <h2>Usage</h2>
+                <ol>
+                    <li>Import the <code>AngularBootstrapSidebar</code> in your Angular module:</li>
+                </ol>
+                <pre class="card p-3">
+        <code>import &#123; AngularBootstrapSidebar &#125; from 'angular-bootstrap-sidebar';
+
+@NgModule(&#123;
+declarations: [/* Your components */],
+imports: [AngularBootstrapSidebar, /* Other modules */],
+&#125;)
+export class YourModule &#123; &#125;</code>
+    </pre>
+                <ol start="2">
+                    <li>Use the <code>&lt;abs&gt;</code> component in your HTML template:</li>
+                </ol>
+                <pre class="card p-3">
+                    <code>&lt;abs [menuData]="menu" [menuActive]="true" [menuHover]="true"&gt;&lt;/abs&gt;</code>
+                </pre>
+
+                <ol start="3">
+                    <li>Define your menu data in your component:</li>
+                </ol>
+                <pre class="card p-3">
+                    <code>menu = [
+    &#123;
+        label: "Dashboard",
+        icon: "fa-x-dial-box",
+        link: "/admin/dashboard",
+        subItems: [
+        &#123; label: "Live Statistic on Map", link: "/admin/dashboard/live-statistic-map" &#125;,
+        &#123; label: "CM Dashboard", link: "/admin/dashboard/cm-dashboard" &#125;
+        ]
+    &#125;
+];</code>
+                </pre>
+
+                <h3>Inputs</h3>
+                <ul>
+                    <li><strong>menuData</strong>: An array of menu items to be displayed in the sidebar.</li>
+                </ul>
+
+                <h3>Options</h3>
+                <ul>
+                    <li><strong>menuActive</strong>: Controls whether the menu is initially open or closed.</li>
+                    <li><strong>menuHover</strong>: Determines if menu items respond to hover interactions.</li>
+                </ul>
+
+                <h4>Shortcuts to toggle menu</h4>
+                <p>[Ctrl+Shift+S]</p>
+                <a href="https://www.npmjs.com/package/angular-bootstrap-sidebar" target="_blank" class="me-2 btn btn-md btn-light">npm</a>
+                <a href="https://github.com/hirensojitra/angular-bootstrap-sidebar" target="_blank" class="me-2 btn btn-md btn-light"><i class="me-2 fa fa-github"></i>GitHub</a>
+            </div>
+        </div>
+    </div>
+</div>
