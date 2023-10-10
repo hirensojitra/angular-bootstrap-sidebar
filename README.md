@@ -53,3 +53,4 @@ menu = [
 > [Ctrl+Shift+S]
 
 - [npm](https://www.npmjs.com/package/angular-bootstrap-sidebar)
+- [Create an issue](https://github.com/hirensojitra/angular-bootstrap-sidebar/issues)
