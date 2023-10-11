@@ -1,20 +1,22 @@
 ::ng-deep html {
-    &[dir='ltr'] {
-        body {
-            padding-left: 5rem;
+    @media (min-width: 1024px) {
+        &[dir='ltr'] {
+            body {
+                padding-left: 5rem;
 
-            &.menu-open {
-                padding-left: 22.857rem;
+                &.menu-open {
+                    padding-left: 22.857rem;
+                }
             }
         }
-    }
 
-    &[dir='rtl'] {
-        body {
-            padding-right: 5rem;
+        &[dir='rtl'] {
+            body {
+                padding-right: 5rem;
 
-            &.menu-open {
-                padding-right: 22.857rem;
+                &.menu-open {
+                    padding-right: 22.857rem;
+                }
             }
         }
     }
@@ -161,7 +163,7 @@
                             .nav-item {
                                 .nav-link {
                                     span {
-                                        display: block;
+                                        // display: block;
                                     }
                                 }
                             }
@@ -341,6 +343,10 @@
                         max-width: 100%;
                         text-overflow: ellipsis;
                         overflow: hidden;
+                        
+                        &.has-icon {
+                            margin-left: 1rem;
+                        }
                     }
 
                     &.active {
@@ -435,6 +441,10 @@
                         max-width: 100%;
                         text-overflow: ellipsis;
                         overflow: hidden;
+
+                        &.has-icon {
+                            margin-right: 1rem;
+                        }
                     }
 
                     &.active {

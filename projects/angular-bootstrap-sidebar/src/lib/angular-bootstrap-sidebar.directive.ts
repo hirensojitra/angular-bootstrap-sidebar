@@ -166,7 +166,7 @@ export class ABSDirective implements OnInit, AfterViewInit{
 
       if (menuItem.icon) {
         const menuItemIcon = this.renderer.createElement('i');
-        this.renderer.addClass(menuItemSpan, 'ms-3');
+        this.renderer.addClass(menuItemSpan, 'has-icon');
         this.renderer.addClass(menuItemIcon, 'fa');
         this.renderer.addClass(menuItemIcon, menuItem.icon);
         this.renderer.appendChild(a, menuItemIcon);

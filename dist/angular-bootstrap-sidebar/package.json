@@ -1,0 +1,53 @@
+{
+  "name": "angular-bootstrap-sidebar",
+  "version": "0.0.1",
+  "keywords": [
+    "angular 15",
+    "ltr",
+    "rtl",
+    "bootstrap 5",
+    "angular",
+    "angular-component",
+    "angular-sidebar",
+    "navigation-menu",
+    "responsive-menu",
+    "angular-library",
+    "web-development",
+    "frontend",
+    "user-interface",
+    "angular-module",
+    "customization",
+    "typescript",
+    "angular-navigation",
+    "angular-ui",
+    "responsive-design",
+    "angular-material"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2015/angular-bootstrap-sidebar.mjs",
+  "es2020": "fesm2020/angular-bootstrap-sidebar.mjs",
+  "esm2020": "esm2020/angular-bootstrap-sidebar.mjs",
+  "fesm2020": "fesm2020/angular-bootstrap-sidebar.mjs",
+  "fesm2015": "fesm2015/angular-bootstrap-sidebar.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/angular-bootstrap-sidebar.mjs",
+      "es2020": "./fesm2020/angular-bootstrap-sidebar.mjs",
+      "es2015": "./fesm2015/angular-bootstrap-sidebar.mjs",
+      "node": "./fesm2015/angular-bootstrap-sidebar.mjs",
+      "default": "./fesm2020/angular-bootstrap-sidebar.mjs"
+    }
+  }
+}

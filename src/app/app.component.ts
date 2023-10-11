@@ -13,7 +13,8 @@ export class AppComponent {
     "link": "",
     "subItems": [{
       "label": "Live Statistic on Map",
-      "link": ""
+      "link": "",
+      "icon": "fa-gear"
     },
     {
       "label": "CM Dashboard",
